@@ -6,7 +6,7 @@ define (require) ->
     # Start monitoring history with Backbone
     Backbone.history.start
       pushState: true
-      root: 'testcase'
+      root: '/backbone-querystring-route-test'
 
     # Force Backbone to register the full path including the
     # query string in its history on load
