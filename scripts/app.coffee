@@ -24,4 +24,4 @@ define (require) ->
       query = $(e.currentTarget).val()
 
       require ['cs!router'], (router) ->
-        router.navigate("search?q=#{query}", {trigger: true})
+        router.navigate("?q=#{query}", {trigger: true})

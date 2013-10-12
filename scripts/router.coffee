@@ -8,8 +8,4 @@ define (require) ->
     initialize: () ->
       # Default Route
       @route '*actions', 'default', () =>
-        query = location.search
-        @navigate("search#{query}", {trigger: true, replace: true})
-
-      @route /^search/, 'search', () ->
         appView.render()
