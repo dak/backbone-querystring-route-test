@@ -24,4 +24,5 @@ define (require) ->
       query = $(e.currentTarget).val()
 
       require ['cs!router'], (router) ->
+        # Backbone 1.1.0 will ignore the new route if the url fragment is unchanged
         router.navigate("?q=#{query}", {trigger: true})
