@@ -10,8 +10,7 @@
       // ## Core Libraries
       jquery: 'libs/jquery/jquery',
       underscore: 'libs/underscore/underscore',
-      backbone: 'libs/backbone/backbone-1.0',
-      //backbone: 'libs/backbone/backbone-1.1',
+      backbone: BACKBONE_PATH,
 
       // ## CoffeeScript Compiler
       'coffee-script': 'libs/require-cs/coffee-script'
